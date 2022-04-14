@@ -1,0 +1,56 @@
+.title {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn {
+  margin-top: 30px;
+}
+
+.customers {
+  margin: 50px 0;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: space-between;
+  }
+
+  &__item {
+    flex: 0 0 21%;
+  }
+}
+
+
+.ant-pagination {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.form-calc {
+  &__heads {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &__subtitle {
+    font-weight: 600;
+    line-height: 22px;
+  }
+
+  &__item {
+    max-width: 500px;
+    &_width_available {
+      width: 100%;
+    }
+  }
+
+}
+@media screen and (max-width: 440px) {
+  .customers__item {
+    flex: 0 0 100%;
+  }
+}

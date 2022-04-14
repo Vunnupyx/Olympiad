@@ -1,0 +1,19 @@
+.layout {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  min-height: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.main-content {
+  grid-area: content;
+  flex: 1;
+  margin-top: 40px;
+  min-height: calc(((100vh - 64px) - 90px) - 519px);
+}
